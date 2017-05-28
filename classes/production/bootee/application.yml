@@ -14,7 +14,8 @@ server:
 management:
   security:
     enabled: false
-  port: 8090
-
+vaadin:
+  servlet:
+    production-mode: true
 
     
