@@ -1,6 +1,5 @@
 # Bootee
 
-
 [![Build Status](https://travis-ci.org/vincedgy/bootee.svg?branch=master)](https://travis-ci.org/vincedgy/bootee)
 
 _net.vincedgy.garden.bootee_

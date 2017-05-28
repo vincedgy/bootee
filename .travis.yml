@@ -11,7 +11,9 @@ matrix:
             - oracle-java8-installer
             - oracle-java8-set-default
 
-script: ./gradlew build --no-daemon --stacktrace --console=plain
+script:
+  - ./gradlew build --no-daemon --stacktrace --console=plain
+  - ./gradlew check test --no-daemon --stacktrace --console=plain
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
