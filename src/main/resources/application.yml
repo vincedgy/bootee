@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: bootee
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    database-platform: H2
+
+server:
+  port: 8080
+
+management:
+  security:
+    enabled: false
+
+
+    
